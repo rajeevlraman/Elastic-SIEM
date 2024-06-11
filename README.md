@@ -15,3 +15,19 @@ This Lab is a simple Elastic SIEM lab to monitor security events and provide ale
 - Create alert rules for detecting specific events.
 
 <img align="center" src="assets/images/dashboard1.png" /><br/>
+
+###Prerequisites
+- Virtual Box.
+- Kali Linux VM.
+- Elastic Account.
+- Elastic agents and forwarders.
+
+###Tasks
+
+- 1.	Setup VirtualBox.
+- 2.	Install Kali Linux VM in VirtualBox.
+- 3.	Setup an account with Elastic cloud.
+- 4.	Configure the Elastic Agent on Kali Linux VM to forward the logs to the SIEM.
+- 5.	Generate security events in Kali Linux.
+- 6.	Create a Dashboard to visualise the security events.
+- 7.	Create Rules/Alerts for security events.
