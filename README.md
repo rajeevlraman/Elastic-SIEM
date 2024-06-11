@@ -16,13 +16,13 @@ This Lab is a simple Elastic SIEM lab to monitor security events and provide ale
 
 <img align="center" src="assets/images/dashboard1.png" /><br/>
 
-###Prerequisites
+### Prerequisites
 - Virtual Box.
 - Kali Linux VM.
 - Elastic Account.
 - Elastic agents and forwarders.
 
-###Tasks
+### Tasks
 
 - 1.	Setup VirtualBox.
 - 2.	Install Kali Linux VM in VirtualBox.
