@@ -14,4 +14,4 @@ This Lab is a simple Elastic SIEM lab to monitor security events and provide ale
 - Monitoring security events and threat detection.
 - Create alert rules for detecting specific events.
 
-<img align="center" src="https://i.imgur.com/hsgq76C.png" /><br/>
+<img align="center" src="assets/images/dashboard1.png" /><br/>
