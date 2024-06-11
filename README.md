@@ -136,10 +136,10 @@ Details of an event. assets\images\detail1.png
 
 
 
-<img align="center" src="assets/images/rule1.png" /><br/>
+<img align="center" src="assets/images/rule-1.png" /><br/>
 
 
-<img align="center" src="assets/images/rule1.png" /><br/>
+<img align="center" src="assets/images/rule-1.png" /><br/>
 
 
-<img align="center" src="assets/images/rule3.png" /><br/>
+<img align="center" src="assets/images/rule-3.png" /><br/>
