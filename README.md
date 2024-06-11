@@ -138,8 +138,8 @@ This Lab is a simple Elastic SIEM lab to monitor security events and provide ale
 
 <img align="center" src="assets/images/query1.png" /><br/>
 
-[Details of an event](https://github.com/rajeevlraman/Elastic-SIEM/assets\images\detail1.png)
-[Details of an event]. (assets\images\detail1.png)<br>
+[Details of an event]([https://github.com/rajeevlraman/Elastic-SIEM/assets\images\detail1.png](https://github.com/rajeevlraman/Elastic-SIEM/blob/main/assets/images/detail1.png))
+
 
 ## Task 6
 
