@@ -77,7 +77,7 @@ This Lab is a simple Elastic SIEM lab to monitor security events and provide ale
 <img align="center" src="assets/images/elastic_defend_conf.png" /><br/>
 <img align="center" src="assets/images/add_agent_host.png" /><br/>
 <img align="center" src="assets/images/script_add.png" /><br/>
-<img align="center" src="assets/images/kali_term_instal.png" /><br/>
+<img align="center" src="assets/images/kali_term_install.png" /><br/>
 <img align="center" src="assets/images/kali_term_finish.png" /><br/>
 <img align="center" src="assets/images/kali_nmap.png" /><br/>
 <img align="center" src="assets/images/kali_term_status.png" /><br/>
