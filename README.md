@@ -5,7 +5,7 @@
 
 ## Overview
 Welcome to my home lab setup! "Dashershomelab" I've created this environment to learn and understand various aspects of networking, monitoring, prevention, administration, and hardening techniques. It's been an incredible learning experience, and I'm excited to share my setup with you.
-This Lab is a simple Elastic SIEM lab to monitor security events and provide alerts. 
+This Lab is a simple Elastic SIEM lab to monitor security events and provide alerts. <br>
 
 ## Goal
 
@@ -29,7 +29,7 @@ This Lab is a simple Elastic SIEM lab to monitor security events and provide ale
 
 - Elastic Account.
 
-- Elastic agents and forwarders.
+- Elastic agents and forwarders.<br>
 
 ## Tasks
 
@@ -39,13 +39,13 @@ This Lab is a simple Elastic SIEM lab to monitor security events and provide ale
 4.	### Configure the Elastic Agent on Kali Linux VM to forward the logs to the SIEM.
 5.	### Generate security events in Kali Linux.
 6.	### Create a Dashboard to visualise the security events.
-7.	### Create Rules/Alerts for security events.
+7.	### Create Rules/Alerts for security events.<br>
 
 ## Task 1
 
 ### Install Kali Linux Vm on Virtual Box
 
-- 	Download and install Virtual Box. https://www.virtualbox.org/wiki/Downloads
+- 	Download and install Virtual Box. https://www.virtualbox.org/wiki/Downloads.<br>
 
 <img align="center" src="assets/images/vbox1.png" /><br/>
 
@@ -133,12 +133,12 @@ This Lab is a simple Elastic SIEM lab to monitor security events and provide ale
 
 - 	Or for sudo events we can use: process.args: “sudo”
 
-- 	Then click on search and it should present the filtered results.
+- 	Then click on search and it should present the filtered results.<br>
 
 
 <img align="center" src="assets/images/query1.png" /><br/>
 
-Details of an event. assets\images\detail1.png
+Details of an event. assets\images\detail1.png<br>
 
 ## Task 6
 
@@ -159,7 +159,7 @@ Details of an event. assets\images\detail1.png
 
 -	In the vertical axis select the event counts.
 
--	Click on save and the visualisation should be displayed.
+-	Click on save and the visualisation should be displayed.<br>
 
 <img align="center" src="assets/images/dashboard1.png" /><br/>
 
@@ -184,7 +184,7 @@ Details of an event. assets\images\detail1.png
 
 -	In the Actions menu you can choose how the alert is to be notified. I have chosen email as most of the other options may require API keys, and other credentials.
 
--	Create and enable the rule.
+-	Create and enable the rule.<br>
 
 
 
