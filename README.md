@@ -61,7 +61,7 @@ This Lab is a simple Elastic SIEM lab to monitor security events and provide ale
 
 ## Task 4
 
-###Configuring the Elastic Agent
+### Configuring the Elastic Agent
 
 - 	On the Elastic SIEM Instance click on the Hamburger meu and scroll down.
 - 	Click on the Add Integrations button.
@@ -79,8 +79,9 @@ This Lab is a simple Elastic SIEM lab to monitor security events and provide ale
 <img align="center" src="assets/images/script_add.png" /><br/>
 <img align="center" src="assets/images/kali_term_instal.png" /><br/>
 <img align="center" src="assets/images/kali_term_finish.png" /><br/>
-<img align="center" src="assets/images/kali_nmap.png" /><br/>
 <img align="center" src="assets/images/kali_term_status.png" /><br/>
+
+
 
 ## Task5
 
@@ -89,3 +90,56 @@ This Lab is a simple Elastic SIEM lab to monitor security events and provide ale
 - 	Using nmap -P localhost will scan kali itself.
 - 	Once some events are generated we can go to the SIEM and view the logs.
 - 	To view logs click on the hamburger menu, select observability and then click on logs.
+
+<img align="center" src="assets/images/kali_nmap.png" /><br/>
+
+### To query a result in Elastic Instance
+- 	To query a search in the logs we can filter them using preset keywords with required string.
+- 	For example to query all logs related to Nmap scans , we can use Query: event. Action: “Nmap scan”
+- 	Or for sudo events we can use: process.args: “sudo”
+- 	Then click on search and it should present the filtered results.
+
+
+<img align="center" src="assets/images/query1.png" /><br/>
+
+Details of an event. assets\images\detail1.png
+
+## Task 6
+
+### Creating a Dashboard to visualize the results
+-	In the Elastic Instance click on the Hambuger menu.
+-	Select Analytics and click on Dashboards
+-	Click on the create dashboard and  then click on create a new dashboard button.
+-	Click on the create visualisation button to add new visualisation object to the dashboard.
+-	In the type select Bar vertical stacked
+-	And data use apm.
+-	In the horizontal axis select the Timestamp.
+-	In the vertical axis select the event counts.
+-	Click on save and the visualisation should be displayed.
+
+<img align="center" src="assets/images/dashboard1.png" /><br/>
+
+
+## Task 7
+
+### Create Rules/Alerts for security events.
+-	click on the hamburger menu and then under Security click on Alerts.
+-	Click on manage rules.
+-	click on the create new rule button.
+-	Under the define rule section select custom query.
+-	For example to detect Nmap events we can use “event.action: “nmap_scan”
+-	Continue and click on about and give it a name and description.
+-	Select the severity level and few other options. It can be left as it is.
+-	In the Actions menu you can choose how the alert is to be notified. I have chosen email as most of the other options may require API keys, and other credentials.
+-	Create and enable the rule.
+
+
+
+
+<img align="center" src="assets/images/rule1.png" /><br/>
+
+
+<img align="center" src="assets/images/rule1.png" /><br/>
+
+
+<img align="center" src="assets/images/rule3.png" /><br/>
